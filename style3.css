@@ -1,0 +1,14 @@
+@media only screen and (max-width : 430px){
+    .imgyui{
+        display: none;
+    }
+
+.menu{
+    visibility: visible;
+}}
+@media only screen and (min-width : 430px){
+   
+.menu{
+    visibility: hidden;
+}
+}
