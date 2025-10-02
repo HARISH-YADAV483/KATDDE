@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     z-index: 0;
+    overflow-x: hidden;
+}
+.dtr{
+    margin-right: 4px;
+    margin-left: 6px;
 }
 
 .imgii{
@@ -66,7 +71,7 @@ body{
     background-size: 100% 100%;
     margin: 0;padding: 0;
     min-height: 100vh;
-   
+   width: 100%;
     
 }
  /* .body{
@@ -99,6 +104,8 @@ animation-direction: alternate;
 animation-timing-function: ease-in-out;
 animation-delay: 1s;
 position: relative;
+margin-right: 4px;
+margin-left: 2px;
 }
 
 
@@ -233,6 +240,7 @@ footer{
         margin-left: 6vw;
         margin-right: 8vw;
         
+        
         z-index: 2;
         
     }
@@ -269,18 +277,21 @@ footer{
 
    
     .nav {
-      
+        
         display: flex;
 
-        width: 100vw;
+        width: 98vw;
        border-radius: 5px;
         justify-content: space-between;
         align-items: center;
         background-image: url(sincerely-media-JemtZZxQFxY-unsplash.jpg);
         height: 48px;
         margin-top: 2px;
-        
+       
         z-index: 2;
+        margin-right: 1vw;
+        margin-left: 1vw;
+        
         
     
         
