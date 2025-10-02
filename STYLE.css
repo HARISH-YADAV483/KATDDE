@@ -40,20 +40,7 @@
     top: 32px;
     right: 12px;
 }
-.slideit{
-    width: 100vw;
-    height: 100vh;
-    
-    z-index: 999;
-    position: absolute;
-    
-    background-color: hsla(0, 0%, 0%, 0.9);
-    color: white;
-  
-    font-weight: lighter;
 
-    
-}
 .jijik{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -107,12 +94,21 @@ position: relative;
 margin-right: 4px;
 margin-left: 2px;
 }
+.jijiko{
+    animation-name: op;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0.1s;
+}
 
 
 
 .yu{
     display: flex;
     align-items: center;
+    gap: 5px;
+    margin-right: 5px;
 }
 a{text-decoration: none; font-size: 10px; color: black;}
 
@@ -138,6 +134,18 @@ footer{
 
 
 @media only screen and (min-width:1140px) {
+    .slideit{
+    width: 30vw;
+    height: 100vh;
+    z-index: 999;
+    position: absolute;
+    background-color: hsla(0, 0%, 0%, 0.9);
+    color: white;
+    font-weight: lighter;
+    margin-left: 70vw;
+
+    
+}
     .dtr{
         width: 1140px;
        align-self: center;
@@ -225,7 +233,7 @@ footer{
     .nav {
         display: flex;
         justify-content: space-between;
-        height: 52px;
+        height: 78px;
 
         border-radius: 15px;
         width: 90vw;
@@ -263,16 +271,24 @@ footer{
 
     .righto {
         display: flex;
-        justify-content: right;
-        margin-right: 30px;
-        
+   
     }
 }
 
 @media only screen and (max-width:1140px) {
    
 
+.slideit{
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    position: absolute;
+    background-color: hsla(0, 0%, 0%, 0.9);
+    color: white;
+    font-weight: lighter;
 
+    
+}
    
 
    
@@ -285,7 +301,7 @@ footer{
         justify-content: space-between;
         align-items: center;
         background-image: url(sincerely-media-JemtZZxQFxY-unsplash.jpg);
-        height: 48px;
+        height: 78px;
         margin-top: 2px;
        
         z-index: 2;

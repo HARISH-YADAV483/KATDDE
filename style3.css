@@ -1,4 +1,4 @@
-@media only screen and (max-width : 430px){
+/* @media only screen and (max-width : 504px){
     .imgyui{
         display: none;
     }
@@ -6,9 +6,17 @@
 .menu{
     visibility: visible;
 }}
-@media only screen and (min-width : 430px){
+@media only screen and (min-width : 504px){
    
 .menu{
-    visibility: hidden;
+    display: none;
 }
+} */
+@keyframes op {
+    from {
+    opacity: 0;
+    }
+    to {
+     opacity: 1;
+    }
 }
