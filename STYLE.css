@@ -71,14 +71,14 @@ body{
  /* .body{
     background-color: rgb(248, 248, 145);
  } */
-.camli{
+/* .camli{
     position: relative;
     width: 92vw;
     margin-right: 4vw;
     margin-left: 4vw;
     border-radius: 14px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 10px; */
     /* animation-name: camlu;
 animation-iteration-count: infinite;
 animation-duration: 0.5s;
@@ -86,14 +86,19 @@ animation-direction: alternate;
 animation-timing-function: linear;
 animation-delay: 1s; */
 
-}
-.introimage{animation-name: camlu;
-animation-iteration-count: infinite;
-animation-duration: 0.5s;
-animation-direction: alternate;
-animation-timing-function: linear;
-animation-delay: 1s;
+/* } */
+
+.introimage{
 position: relative;}
+.nji{
+    /* animation-name: camlu;
+animation-iteration-count: infinite;
+animation-duration: 0.6s;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+animation-delay: 1s; */
+position: relative;
+}
 
 
 
@@ -220,7 +225,7 @@ footer{
         align-items: center;
         margin: auto;
         margin-top: 15px;
-        border: solid black;
+        border: solid rgb(156, 10, 10);
         border-width: 1px;
         margin-bottom: 1px;
         margin-left: 6vw;
@@ -272,7 +277,7 @@ footer{
         
     
         
-        border: solid black;
+        border: solid rgb(156, 10, 10);
         border-width: 1px;
          margin-bottom: 1px;
 

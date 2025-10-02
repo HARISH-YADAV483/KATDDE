@@ -22,3 +22,7 @@ img {
 .active, .dot:hover { background-color: #717171; }
 .tutu{border-radius: 9px;
 }
+@keyframes camlu{
+  from{top: 2px;}
+  to{bottom: 2px;}
+}
