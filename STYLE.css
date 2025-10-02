@@ -3,6 +3,7 @@
     padding: 0;
     z-index: 0;
 }
+
 .imgii{
     height: 39px;
     width: auto;
@@ -91,12 +92,12 @@ animation-delay: 1s; */
 .introimage{
 position: relative;}
 .nji{
-    /* animation-name: camlu;
+    animation-name: camlu;
 animation-iteration-count: infinite;
-animation-duration: 0.6s;
+animation-duration: 0.5s;
 animation-direction: alternate;
 animation-timing-function: ease-in-out;
-animation-delay: 1s; */
+animation-delay: 1s;
 position: relative;
 }
 
@@ -159,7 +160,7 @@ footer{
 
 }
    #classInput{
- 
+ border: 1px solid rgb(156, 10, 10);
   width: 200px;
   height: 26px;
   align-self: center;
@@ -170,7 +171,7 @@ footer{
   
   height: 30px;
   align-self: center;
-  
+  border: 1px solid rgb(156, 10, 10);
   border-radius: 9px;
  background-image: url(sincerely-media-JemtZZxQFxY-unsplash.jpg);
   width: 40px;
@@ -209,6 +210,7 @@ footer{
     margin-bottom: 1px;
     margin-left: 8px;
         margin-right: 8px;
+        border: 1px solid rgb(156, 10, 10);
     
 }
 
@@ -230,6 +232,9 @@ footer{
         margin-bottom: 1px;
         margin-left: 6vw;
         margin-right: 8vw;
+        position: sticky;
+        top: 0px;
+        z-index: 2;
         
     }
 
@@ -265,6 +270,7 @@ footer{
 
    
     .nav {
+        position: sticky;
         display: flex;
 
         width: 100vw;
@@ -274,6 +280,8 @@ footer{
         background-image: url(sincerely-media-JemtZZxQFxY-unsplash.jpg);
         height: 48px;
         margin-top: 2px;
+        top: 0px;
+        z-index: 2;
         
     
         
@@ -311,6 +319,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+     
     width: 100vw;
   
         
@@ -326,7 +335,7 @@ footer{
 }
 
     #classInput {
- 
+  border: 1px solid rgb(156, 10, 10);
   width: 20vw;
   height: 15px;
   align-self: center;
@@ -336,6 +345,7 @@ footer{
 .butto {
   
   height: 20px;
+   border: 1px solid rgb(156, 10, 10);
   align-self: center;
   
   border-radius: 9px;
@@ -365,7 +375,7 @@ footer{
     margin-bottom: 1px;
     border-radius: 9px;
     width: 100%;
-    
+     border: 1px solid rgb(156, 10, 10);
     
 }
 
@@ -385,12 +395,13 @@ footer{
     align-items: center;
     justify-content: flex-end;
     width: 100vw;
+     
     
         
 
 }
     #classInput {
- 
+  border: 1px solid rgb(156, 10, 10);
   width: 200px;
   height: 26px;
   align-self: center;
@@ -398,7 +409,7 @@ footer{
   background-image: url(sincerely-media-JemtZZxQFxY-unsplash.jpg);
 }
 .butto {
-  
+   border: 1px solid rgb(156, 10, 10);
   height: 30px;
   align-self: center;
   
@@ -430,6 +441,7 @@ footer{
     margin-bottom: 1px;
     border-radius: 9px;
     width: 100%;
+     border: 1px solid rgb(156, 10, 10);
 }
 
 }
