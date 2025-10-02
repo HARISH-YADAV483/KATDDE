@@ -232,8 +232,7 @@ footer{
         margin-bottom: 1px;
         margin-left: 6vw;
         margin-right: 8vw;
-        position: sticky;
-        top: 0px;
+        
         z-index: 2;
         
     }
@@ -270,7 +269,7 @@ footer{
 
    
     .nav {
-        position: sticky;
+      
         display: flex;
 
         width: 100vw;
@@ -280,7 +279,7 @@ footer{
         background-image: url(sincerely-media-JemtZZxQFxY-unsplash.jpg);
         height: 48px;
         margin-top: 2px;
-        top: 0px;
+        
         z-index: 2;
         
     
