@@ -4,10 +4,12 @@
     z-index: 0;
     overflow-x: hidden;
 }
-.dtr{
+
+
+/* .dtr{
     margin-right: 4px;
     margin-left: 6px;
-}
+} */
 
 .imgii{
     height: 39px;
@@ -61,6 +63,7 @@ body{
    width: 100%;
     
 }
+
  /* .body{
     background-color: rgb(248, 248, 145);
  } */
@@ -81,6 +84,7 @@ animation-delay: 1s; */
 
 /* } */
 
+
 .introimage{
 position: relative;}
 .nji{
@@ -94,6 +98,7 @@ position: relative;
 margin-right: 4px;
 margin-left: 2px;
 }
+
 .jijiko{
     animation-name: op;
     animation-iteration-count: infinite;
@@ -146,6 +151,33 @@ footer{
 
     
 }
+  .introcard{width: 1140px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 32px;
+        margin-top: 23px;
+        border:  solid rgb(156, 10, 10);
+        border-radius: 9px;
+        border-width: 1px 3px 3px 3px;
+        height: 190px;
+        animation-name: camlu;
+animation-iteration-count: infinite;
+animation-duration: 0.5s;
+animation-direction: alternate;
+animation-timing-function: linear;
+animation-delay: 1s;
+   }
+   .mamuu{
+  height: 170px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: auto;
+    margin-top: 10px;
+   }
+   .textoi{
+    margin-top: 10px;
+   }
     .dtr{
         width: 1140px;
        align-self: center;
@@ -277,7 +309,39 @@ footer{
 
 @media only screen and (max-width:1140px) {
    
+.introcard{width: 98vw;
+        display: flex;
+       margin-left: 0.vw;
+        margin-right: 1.5vw;
+        margin-bottom: 32px;
+        margin-top: 23px;
+        border:  solid rgb(156, 10, 10);
+        border-radius: 9px;
+        border-width: 1px 3px 3px 3px;
+        height: 190px;
+        animation-name: camlu;
+animation-iteration-count: infinite;
+animation-duration: 0.5s;
+animation-direction: alternate;
+animation-timing-function: linear;
+animation-delay: 1s;
+   }
+   .mamuu{
+ 
 
+
+    margin-right: 10px;
+    margin-left: 10px;
+    
+    margin-top: 10px;
+   }
+   h2{font-weight: normal;
+font-size: medium;
+color:rgb(156, 10, 10);
+height: 23px;}
+   .textoi{
+    margin-top: 10px;
+   }
 .slideit{
     width: 100vw;
     height: 100vh;
