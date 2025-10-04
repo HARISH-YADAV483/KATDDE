@@ -151,6 +151,10 @@ footer{
 
     
 }
+h2{
+    color: rgb(156, 10, 10);
+    font-weight: normal;
+}
   .introcard{width: 1140px;
         display: flex;
         margin-left: auto;
@@ -325,22 +329,28 @@ animation-duration: 0.5s;
 animation-direction: alternate;
 animation-timing-function: linear;
 animation-delay: 1s;
+position: relative;
    }
    .mamuu{
  
+width: 30vw;
+position: relative;
+top: 0px;
 
 
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
     
     margin-top: 10px;
    }
    h2{font-weight: normal;
-font-size: medium;
+font-size: 11px;
+text-decoration: underline;
 color:rgb(156, 10, 10);
 height: 23px;}
    .textoi{
     margin-top: 10px;
+    width: 70vw;
    }
 .slideit{
     width: 100vw;
