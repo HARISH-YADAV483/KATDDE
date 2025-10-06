@@ -55,8 +55,7 @@
     
 }
 body{
-    background-image: url(sincerely-media-JemtZZxQFxY-unsplash.jpg);
-    background-repeat: no-repeat;
+   backgroung-color: white;
     background-size: 100% 100%;
     margin: 0;padding: 0;
     min-height: 100vh;
