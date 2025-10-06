@@ -162,17 +162,19 @@ h2{
         margin-bottom: 32px;
         margin-top: 23px;
         border:  solid rgb(156, 10, 10);
-        border-radius: 9px;
-        border-width: 1px 3px 3px 3px;
+        border-radius: 99px;
+        border-width: 1px 1px 1px 1px;
         height: 190px;
-        animation-name: camlu;
+        /* animation-name: camlu;
 animation-iteration-count: infinite;
 animation-duration: 0.5s;
 animation-direction: alternate;
 animation-timing-function: linear;
 animation-delay: 1s;
-   }
+   */
+  }
    .mamuu{
+    
   height: 170px;
     margin-right: 10px;
     margin-left: 10px;
@@ -278,7 +280,7 @@ animation-delay: 1s;
         align-items: center;
         margin: auto;
         margin-top: 15px;
-        border: solid rgb(156, 10, 10);
+        /* border: solid rgb(156, 10, 10); */
         border-width: 1px;
         margin-bottom: 1px;
         margin-left: 6vw;
@@ -320,16 +322,16 @@ animation-delay: 1s;
         margin-bottom: 32px;
         margin-top: 23px;
         border:  solid rgb(156, 10, 10);
-        border-radius: 9px;
-        border-width: 1px 3px 3px 3px;
+        border-radius: 59px;
+        border-width: .1px 1px 1px 1px;
         height: 190px;
-        animation-name: camlu;
+        /* animation-name: camlu;
 animation-iteration-count: infinite;
 animation-duration: 0.5s;
 animation-direction: alternate;
 animation-timing-function: linear;
 animation-delay: 1s;
-position: relative;
+position: relative; */
    }
    .mamuu{
  
@@ -385,7 +387,7 @@ height: 23px;}
         
     
         
-        border: solid rgb(156, 10, 10);
+        /* border: solid rgb(156, 10, 10); */
         border-width: 1px;
          margin-bottom: 1px;
 
@@ -435,7 +437,7 @@ height: 23px;}
 }
 
     #classInput {
-  border: 1px solid rgb(156, 10, 10);
+  border: 01px solid rgb(156, 10, 10);
   width: 20vw;
   height: 15px;
   align-self: center;
