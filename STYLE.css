@@ -55,7 +55,8 @@
     
 }
 body{
-   background-color: rgb(255, 255, 229);
+   background-color: rgb(255, 255, 195);
+    background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: 0;padding: 0;
     min-height: 100vh;
