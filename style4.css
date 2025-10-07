@@ -1,0 +1,155 @@
+.branch{
+animation-name: camlii;
+animation-iteration-count: infinite;
+animation-duration: 0.5s;
+animation-direction: alternate;
+animation-timing-function: linear;
+animation-delay: 1s;
+font-family: cursive;
+font-size: 24px;
+}
+
+@media only screen and (min-width:1140px){
+    .container{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.imgcato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .catogery{
+        display: flex;
+        gap: 10px;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        width: 275px;
+        height: 275px;
+        background-color: rgb(156, 10, 10);
+        margin: 5px;
+       
+        margin-top: 50px;
+        border-radius: 9px;
+
+    }
+    .hillo{
+        height: 49px;
+        width: 49px;
+        margin: 5px;
+    }
+    .button{
+        width: 275px;
+        margin-bottom: 1px;
+    }
+    .catochild{
+        width: 275px;
+    }
+}
+
+@media only screen and (min-width:750px ) and (max-width: 1140px){
+    .container{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 86vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    
+    
+}
+.imgcato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .catogery{
+        
+        display: flex;
+        gap: 10px;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        width: 24.6vw;
+       aspect-ratio: 1 /1 ;
+        background-color: rgb(156, 10, 10);
+        margin: 2vw;
+       
+        margin-top: 50px;
+
+    }
+    .hillo{
+        height: 49px;
+        width: 49px;
+        margin: 5px;
+    }
+    .button{
+        width: 24.6vw;
+        margin-bottom: 1px;
+    }
+    .catochild{
+        width: 24.6vw;
+    }
+}
+@media only screen and (max-width:750px){
+     .container{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 88v;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    
+    
+}
+.imgcato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .catogery{
+        display: flex;
+        gap: 10px;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        width: 40vw;
+       aspect-ratio: 1 /1 ;
+        background-color: rgb(156, 10, 10);
+        margin: 2vw;
+       
+        margin-top: 50px;
+
+    }
+    .hillo{
+        height: 49px;
+        width: 49px;
+        margin: 5px;
+    }
+    .button{
+        width: 40vw;
+        margin-bottom: 1px;
+    }
+    .catochild{
+        width: 40vw;
+    }
+
+}
+@keyframes camlii {
+   
+    from{  transition: transform 0.5s ease ;
+   transform: translateY(7px) ;}
+    to{transition: transform 0.5 ease ;
+   transform: translateY(7px) ;}
+    
+}
