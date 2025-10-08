@@ -121,8 +121,8 @@ a{text-decoration: none; font-size: 10px; color: black;}
 footer{
     width: 100%;
     height: auto;
-    background-color: rgb(13, 8, 26);
-    color: aliceblue;
+    background-image: url(sincerely-media-JemtZZxQFxY-unsplash.jpg);
+     color: rgb(156, 10, 10);
     position: static;
     margin-top: 45px;
     display: flex;
@@ -436,7 +436,8 @@ height: 23px;}
    
 .endu{
    
-   text-align: center;margin-left: 10vw;
+   text-align: center;
+   margin-left: 10vw;
  
    
 
