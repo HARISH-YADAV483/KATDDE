@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nit_Kkr_StudentCommunity</title>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+<meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
     <link rel="stylesheet" href="STYLE.css">
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="slide.css">
@@ -16,7 +18,10 @@
 
 </head>
 
+
 <body class="t">
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
     <div class="slideit" id="slideit">
         <div class="gene">
             <div class="homesss" style="margin-top: 5px; margin-bottom: 5px;"> <img src="whitokkr.png" alt=""
@@ -205,6 +210,12 @@
         </div>
 
     </footer>
+    <script>function onSignIn(googleUser) {
+    var profile = googleUser.getBasicProfile();
+    console.log('ID:', profile.getId());
+    console.log('Name:', profile.getName());
+    console.log('Email:', profile.getEmail());
+  }</script>
     <script src="script.js"></script>
     <script src="slide.js"></script>
     <script src="script3.js"></script>
