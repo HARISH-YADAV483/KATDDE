@@ -10,8 +10,8 @@ font-size: 24px;
 }
 .button{
      
-     background-image: url(sincerely-media-JemtZZxQFxY-unsplash.jpg);
-     border: 1px solid rgb(156, 10, 10);
+ border-color: black;
+     border: 1px solid white;
      border-radius: 5px;
      
 }
@@ -40,7 +40,7 @@ font-size: 24px;
         justify-content: space-around;
         width: 275px;
         height: 275px;
-        background-color: rgb(156, 10, 10);
+        background-color: white;
         margin-left: 5px;
         margin-right: 5px;
         margin-bottom: 1px;
@@ -89,7 +89,7 @@ font-size: 24px;
         justify-content: space-around;
         width: 24.6vw;
        aspect-ratio: 1 /1 ;
-        background-color: rgb(156, 10, 10);
+        background-color: white;
         margin-left : 2vw;
         margin-right: 2vw;
         margin-bottom: 1px;
@@ -135,7 +135,7 @@ font-size: 24px;
         justify-content: space-around;
         width: 40vw;
        aspect-ratio: 1 /1 ;
-        background-color: rgb(156, 10, 10);
+        background-color: white;
         margin-left:  2vw;
         margin-right: 2vw;
        margin-bottom: 1px;

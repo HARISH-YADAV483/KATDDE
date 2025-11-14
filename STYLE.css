@@ -55,12 +55,12 @@
     
 }
 body{
-   /* background-color: rgb(255, 255, 195); */
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    margin: 0;padding: 0;
-    min-height: 100vh;
-   width: 100%;
+   background-image: url(WhatsApp\ Image\ 2025-11-14\ at\ 22.33.04.jpeg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+   
     
 }
 
@@ -115,18 +115,19 @@ margin-left: 2px;
     gap: 5px;
     margin-right: 5px;
 }
-a{text-decoration: none; font-size: 10px; color: black;}
+a{text-decoration: none; font-size: 10px; color: white;}
 
 
 footer{
     width: 100%;
     height: auto;
-    background-image: url(sincerely-media-JemtZZxQFxY-unsplash.jpg);
-     color: rgb(156, 10, 10);
+background-color: black;
+     color: white;
     position: static;
     margin-top: 45px;
     display: flex;
     justify-content: space-around;
+    border-top: 1px solid white;
     
     
     
@@ -152,7 +153,7 @@ footer{
     
 }
 h2{
-    color: rgb(156, 10, 10);
+    color: white;
     font-weight: normal;
 }
   .introcard{width: 1140px;
@@ -161,7 +162,7 @@ h2{
         margin-right: auto;
         margin-bottom: 32px;
         margin-top: 23px;
-        border:  solid rgb(156, 10, 10);
+        border:  solid white;
         border-radius: 99px;
         border-width: 1px 1px 1px 1px;
         height: 190px;
@@ -213,20 +214,20 @@ animation-delay: 1s;
 
 }
    #classInput{
- border: 1px solid rgb(156, 10, 10);
+ border: 1px solid white;
   width: 200px;
   height: 26px;
   align-self: center;
   border-radius: 9px;
-  background-image: url(sincerely-media-JemtZZxQFxY-unsplash.jpg);
+  background-color: black;
 }
 .butto {
   
   height: 30px;
   align-self: center;
-  border: 1px solid rgb(156, 10, 10);
+  border: 1px solid white;
   border-radius: 9px;
- background-image: url(sincerely-media-JemtZZxQFxY-unsplash.jpg);
+ background-color: white;
   width: 40px;
   
 }
@@ -249,11 +250,12 @@ animation-delay: 1s;
         border-radius: 15px;
         width: 90vw;
         align-items: center;
-       background-image: url(sincerely-media-JemtZZxQFxY-unsplash.jpg);
+     background-color: black;
         align-items: center;
         margin: auto;
         margin-top: 15px;
-        /* border: solid rgb(156, 10, 10); */
+        color: white;
+        border: solid white;
         border-width: 1px;
         margin-bottom: 1px;
         margin-left: 6vw;
@@ -294,7 +296,7 @@ animation-delay: 1s;
         margin-right: 1.5vw;
         margin-bottom: 32px;
         margin-top: 23px;
-        border:  solid rgb(156, 10, 10);
+        border:  solid white;
         border-radius: 59px;
         border-width: .1px 1px 1px 1px;
         height: 190px;
@@ -321,7 +323,7 @@ top: 0px;
    h2{font-weight: normal;
 font-size: 11px;
 text-decoration: underline;
-color:rgb(156, 10, 10);
+color:white;
 height: 23px;}
    .textoi{
     margin-top: 10px;
@@ -349,7 +351,7 @@ height: 23px;}
        border-radius: 5px;
         justify-content: space-between;
         align-items: center;
-        background-image: url(sincerely-media-JemtZZxQFxY-unsplash.jpg);
+       background-color: black;
         height: 78px;
         margin-top: 2px;
        
@@ -410,21 +412,21 @@ height: 23px;}
 }
 
     #classInput {
-  border: 01px solid rgb(156, 10, 10);
+  border: 01px solid white;
   width: 20vw;
   height: 15px;
   align-self: center;
   border-radius: 9px;
-    background-image: url(sincerely-media-JemtZZxQFxY-unsplash.jpg);
+    background-color: black;
 }
 .butto {
   
   height: 20px;
-   border: 1px solid rgb(156, 10, 10);
+   border: 1px solid white;
   align-self: center;
   
   border-radius: 9px;
-    background-image: url(sincerely-media-JemtZZxQFxY-unsplash.jpg);
+   background-color: black;
   width: 8vw;
 }
    
@@ -454,20 +456,20 @@ height: 23px;}
 
 }
     #classInput {
-  border: 1px solid rgb(156, 10, 10);
+  border: 1px solid white;
   width: 200px;
   height: 26px;
   align-self: center;
   border-radius: 9px;
-  background-image: url(sincerely-media-JemtZZxQFxY-unsplash.jpg);
+background-color: black;
 }
 .butto {
-   border: 1px solid rgb(156, 10, 10);
+   border: 1px solid white;
   height: 30px;
   align-self: center;
   
   border-radius: 9px;
-   background-image: url(sincerely-media-JemtZZxQFxY-unsplash.jpg);
+   background-color: black;
   width: 40px;
 }
 

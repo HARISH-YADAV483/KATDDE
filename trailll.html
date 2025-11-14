@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Video Slider</title>
+<style>
+  body, html {
+    margin: 0; padding: 0; height: 100%;
+    display: flex; justify-content: center; align-items: center;
+    background: #000;
+  }
+  .slider {
+    position: relative;
+    width: 80vw;
+    max-width: 900px;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+  }
+  video.active {
+    display: block;
+  }
+  .nav-btn {
+    position: absolute;
+    top: 50%;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+    padding: 0 10px;
+    user-select: none;
+    transform: translateY(-50%);
+  }
+  .nav-btn.left {
+    left: 10px;
+  }
+  .nav-btn.right {
+    right: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div class="slider">
+  <button class="nav-btn left">&#10094;</button>
+  <video muted autoplay playsinline><source src="WhatsApp Video 2025-11-14 at 22.04.58 (1).mp4" type= "video/mp4"></video>
+  <video muted autoplay playsinline><source src="WhatsApp Video 2025-11-14 at 22.04.58.mp4" type= "video/mp4"></video>
+  <video muted autoplay playsinline><source src="WhatsApp Video 2025-11-14 at 22.05.01.mp4" type= "video/mp4"></video>
+  
+  <button class="nav-btn right">&#10095;</button>
+</div>
+
+<script>
+  const videos = document.querySelectorAll('.slider video');
+  let current = 0;
+
+  // Initialize videos - only show first
+  videos.forEach((video, index) => {
+    if(index === 0) {
+      video.classList.add('active');
+    }
+    video.pause();
+    video.currentTime = 0;
+  });
+  videos[0].play();
+
+  // When a video ends, play next video in loop
+  videos.forEach((video, index) => {
+    video.addEventListener('ended', () => {
+      videos[index].classList.remove('active');
+      let nextIndex = (index + 1) % videos.length;
+      videos[nextIndex].classList.add('active');
+      videos[nextIndex].currentTime = 0;
+      videos[nextIndex].play();
+      current = nextIndex;
+    });
+  });
+
+  // Navigation handlers
+  document.querySelector('.nav-btn.left').addEventListener('click', () => {
+    videos[current].pause();
+    videos[current].classList.remove('active');
+    current = (current - 1 + videos.length) % videos.length;
+    videos[current].classList.add('active');
+    videos[current].currentTime = 0;
+    videos[current].play();
+  });
+
+  document.querySelector('.nav-btn.right').addEventListener('click', () => {
+    videos[current].pause();
+    videos[current].classList.remove('active');
+    current = (current + 1) % videos.length;
+    videos[current].classList.add('active');
+    videos[current].currentTime = 0;
+    videos[current].play();
+  });
+</script>
+
+</body>
+</html>
