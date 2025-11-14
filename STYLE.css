@@ -121,8 +121,8 @@ a{text-decoration: none; font-size: 10px; color: white;}
 footer{
     width: 100%;
     height: auto;
-background-color: black;
-     color: white;
+background-color: rgb(58, 58, 58);
+     color: rgb(255, 255, 255);
     position: static;
     margin-top: 45px;
     display: flex;
@@ -162,7 +162,7 @@ h2{
         margin-right: auto;
         margin-bottom: 32px;
         margin-top: 23px;
-        border:  solid white;
+        border:  solid rgb(255, 255, 255);
         border-radius: 99px;
         border-width: 1px 1px 1px 1px;
         height: 190px;
@@ -214,12 +214,12 @@ animation-delay: 1s;
 
 }
    #classInput{
- border: 1px solid white;
+ border: 1px solid rgb(255, 255, 255);
   width: 200px;
   height: 26px;
   align-self: center;
   border-radius: 9px;
-  background-color: black;
+  background-color: rgb(55, 55, 55);
 }
 .butto {
   
@@ -250,12 +250,12 @@ animation-delay: 1s;
         border-radius: 15px;
         width: 90vw;
         align-items: center;
-     background-color: black;
+     background-color: rgb(53, 53, 53);
         align-items: center;
         margin: auto;
         margin-top: 15px;
-        color: white;
-        border: solid white;
+        color: rgb(0, 0, 0);
+        border: solid rgb(255, 255, 255);
         border-width: 1px;
         margin-bottom: 1px;
         margin-left: 6vw;
@@ -296,7 +296,7 @@ animation-delay: 1s;
         margin-right: 1.5vw;
         margin-bottom: 32px;
         margin-top: 23px;
-        border:  solid white;
+        border:  solid rgb(255, 255, 255);
         border-radius: 59px;
         border-width: .1px 1px 1px 1px;
         height: 190px;
@@ -323,7 +323,7 @@ top: 0px;
    h2{font-weight: normal;
 font-size: 11px;
 text-decoration: underline;
-color:white;
+color:rgb(0, 0, 0);
 height: 23px;}
    .textoi{
     margin-top: 10px;
@@ -351,7 +351,7 @@ height: 23px;}
        border-radius: 5px;
         justify-content: space-between;
         align-items: center;
-       background-color: black;
+       background-color: rgb(55, 55, 55);
         height: 78px;
         margin-top: 2px;
        
@@ -417,7 +417,7 @@ height: 23px;}
   height: 15px;
   align-self: center;
   border-radius: 9px;
-    background-color: black;
+    background-color: rgb(55, 55, 55);
 }
 .butto {
   
@@ -426,7 +426,7 @@ height: 23px;}
   align-self: center;
   
   border-radius: 9px;
-   background-color: black;
+   background-color: rgb(56, 56, 56);
   width: 8vw;
 }
    
@@ -469,7 +469,7 @@ background-color: black;
   align-self: center;
   
   border-radius: 9px;
-   background-color: black;
+   background-color: rgb(55, 55, 55);
   width: 40px;
 }
 
