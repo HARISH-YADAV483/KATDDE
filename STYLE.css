@@ -54,13 +54,14 @@
     display: none;
     
 }
-body{
+body {
    background-image: url(WhatsApp\ Image\ 2025-11-14\ at\ 22.33.04.jpeg);
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-   
+ 
+ 
     
 }
 
@@ -121,7 +122,7 @@ a{text-decoration: none; font-size: 10px; color: white;}
 footer{
     width: 100%;
     height: auto;
-background-color: rgb(58, 58, 58);
+ background-color: hsla(0, 100%, 50%, 0.5);
      color: rgb(255, 255, 255);
     position: static;
     margin-top: 45px;
@@ -156,6 +157,11 @@ h2{
     color: white;
     font-weight: normal;
 }
+
+.kok{
+    margin-top: auto;
+    margin-bottom: auto;
+}
   .introcard{width: 1140px;
         display: flex;
         margin-left: auto;
@@ -163,9 +169,12 @@ h2{
         margin-bottom: 32px;
         margin-top: 23px;
         border:  solid rgb(255, 255, 255);
-        border-radius: 99px;
+        border-radius: 19px;
         border-width: 1px 1px 1px 1px;
         height: 190px;
+        align-content: center;
+        margin-top: 13px;
+        
         /* animation-name: camlu;
 animation-iteration-count: infinite;
 animation-duration: 0.5s;
@@ -174,6 +183,7 @@ animation-timing-function: linear;
 animation-delay: 1s;
    */
   }
+
    .mamuu{
     
   height: 170px;
@@ -219,7 +229,7 @@ animation-delay: 1s;
   height: 26px;
   align-self: center;
   border-radius: 9px;
-  background-color: rgb(55, 55, 55);
+  background-color: hsla(0, 100%, 50%, 0.5);
 }
 .butto {
   
@@ -250,7 +260,7 @@ animation-delay: 1s;
         border-radius: 15px;
         width: 90vw;
         align-items: center;
-     background-color: rgb(53, 53, 53);
+    background-color: hsla(0, 100%, 50%, 0.5);
         align-items: center;
         margin: auto;
         margin-top: 15px;
@@ -297,7 +307,7 @@ animation-delay: 1s;
         margin-bottom: 32px;
         margin-top: 23px;
         border:  solid rgb(255, 255, 255);
-        border-radius: 59px;
+        border-radius: 19px;
         border-width: .1px 1px 1px 1px;
         height: 190px;
         /* animation-name: camlu;
@@ -334,7 +344,7 @@ height: 23px;}
     height: 100vh;
     z-index: 999;
     position: absolute;
-    background-color: hsla(0, 0%, 0%, 0.9);
+    background-color: hsla(0, 100%, 50%, 0.5);
     color: white;
     font-weight: lighter;
 
@@ -351,7 +361,7 @@ height: 23px;}
        border-radius: 5px;
         justify-content: space-between;
         align-items: center;
-       background-color: rgb(55, 55, 55);
+       background-color: hsla(0, 100%, 50%, 0.5);
         height: 78px;
         margin-top: 2px;
        
@@ -417,7 +427,7 @@ height: 23px;}
   height: 15px;
   align-self: center;
   border-radius: 9px;
-    background-color: rgb(55, 55, 55);
+  background-color: hsla(0, 100%, 50%, 0.5);
 }
 .butto {
   
@@ -426,7 +436,7 @@ height: 23px;}
   align-self: center;
   
   border-radius: 9px;
-   background-color: rgb(56, 56, 56);
+   background-color: hsla(0, 100%, 50%, 0.5);
   width: 8vw;
 }
    
@@ -461,7 +471,7 @@ height: 23px;}
   height: 26px;
   align-self: center;
   border-radius: 9px;
-background-color: black;
+ background-color: hsla(0, 100%, 50%, 0.5);
 }
 .butto {
    border: 1px solid white;
@@ -469,7 +479,7 @@ background-color: black;
   align-self: center;
   
   border-radius: 9px;
-   background-color: rgb(55, 55, 55);
+   background-color: hsla(0, 100%, 50%, 0.5);
   width: 40px;
 }
 
